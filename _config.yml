@@ -4,7 +4,7 @@ title: "Camino Couple - Melvin & Lilia's Travel Blog"
 description:  "Come walk with us as we explore the world of Camino de Santiago"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: /mediumish-theme-jekyll
+baseurl: '/'
 google_analytics: "G-8SW8R2SXVQ"
 disqus: 'demowebsite'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
