@@ -1,0 +1,20 @@
+---
+
+---
+
+<!DOCTYPE html>
+<html lang="en" class="h-100"> 
+    {% include head.html %}
+	<body class="d-flex h-100 text-center text-bg-dark" style="background: url('/assets/images/cover-square.jpg') center; background-size: cover;">
+        <div class="z-n1 position-fixed w-100 h-25 mb-auto" style="background: #000000;
+background: linear-gradient(180deg,rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%);">&nbsp;</div> 
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column"> 
+             {% include header.html %}
+            <main class="px-3"> 
+                {{ content }}
+            </main>
+            {% include footer.html %}
+		
+		{% include scripts.html %}
+	</body>
+</html>

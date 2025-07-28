@@ -1,0 +1,32 @@
+{% if page.layout == "home" %}
+  <footer class="mt-auto text-light w-100">
+    <div class="container">
+      <p class="fs-1 text-center">
+        <a href="https://instagram.com/caminocouple" title="Follow on Instagram" class="link-light"><i class="bi bi-instagram"></i></a>&nbsp;&nbsp;
+        <a href="https://www.youtube.com/@caminocouple" title="Follow on Instagram" class="link-light"><i class="bi bi-youtube"></i></a>&nbsp;&nbsp;
+        <a href="https://www.tiktok.com/@caminocouple" title="Follow on TikTok" class="link-light"><i class="bi bi-tiktok"></i></a>&nbsp;&nbsp;
+        <a href="https://www.facebook.com/caminocouple" title="Follow on Facebook" class="link-light"><i class="bi bi-facebook"></i></a>
+      </p>
+      <p >Last Updated: {{ 'now' | date: '%B %d, %Y' }} <br />
+        © {{ 'now' | date: '%Y' }} {{ site.title }}. All rights reserved.
+     </p>
+    </div>
+  </footer>
+{% else %}
+  <footer class="text-muted w-100 py-5 ">
+    <div class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p class="fs-1 text-center">
+        <a href="https://instagram.com/caminocouple" title="Follow on Instagram" class="link-secondary"><i class="bi bi-instagram"></i></a>&nbsp;
+        <a href="https://www.youtube.com/@caminocouple" title="Follow on Instagram" class="link-secondary"><i class="bi bi-youtube"></i></a>&nbsp;
+        <a href="https://www.tiktok.com/@caminocouple" title="Follow on TikTok" class="link-secondary"><i class="bi bi-tiktok"></i></a>&nbsp;
+        <a href="https://www.facebook.com/caminocouple" title="Follow on Facebook" class="link-secondary"><i class="bi bi-facebook"></i></a>
+      </p>
+      <p>Last Updated: {{ 'now' | date: '%B %d, %Y' }} <br />
+        © {{ 'now' | date: '%Y' }} {{ site.title }}. All rights reserved.
+     </p>
+    </div>
+  </footer>
+{% endif %}
+
+

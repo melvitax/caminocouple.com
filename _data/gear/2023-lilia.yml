@@ -1,0 +1,296 @@
+slug: /gear/2023-packing-list-hers/
+name: Lilia's Camino Packing List
+description: "Packing list for Camino Portuguese and Camino Frances in the fall time."
+thumbnail: https://img.youtube.com/vi/sPqq26dr_kU/mqdefault.jpg
+videoID: sPqq26dr_kU
+season: "Fall 2023"
+weight: "15.8lb/7.2kg"
+sections:
+  - title: Packs
+    items:
+      - name: Osprey Tempest 30L Backpack (28L/Small)
+        image: /assets/images/gear/osprey-tempest-30.jpg
+        weight: 33.3 oz
+        link:
+          - url: https://amzn.to/4lQHirY
+            label: Amazon
+        alternatives:
+          - name: Osprey Tempest 26L Backpack
+            image: /assets/images/gear/osprey-tempest-26.jpg
+            weight: 36 oz
+            label: Newer
+            link:
+              - url: https://amzn.to/4lHfyXg
+                label: Amazon
+      - name: Matador On Grid Packable Hip Pack 2L
+        image: /assets/images/gear/matador-on-grid-hippack.jpg
+        weight: 3.46 oz
+        link:
+          - url: https://www.backcountry.com/matador-on-grid-packable-hip-pack
+            label: Backcountry
+        alternatives:
+          - name: Matador ReFraction Packable Sling
+            image: /assets/images/gear/matador-refraction-packable-sling.jpg
+            weight: 4 oz
+            label: Newer 
+            link:
+              - url: https://www.matadorequipment.com/collections/packable/products/refraction-packable-sling
+                label: Matador
+      - name: LOQI Foldable Travel Tote
+        image: /assets/images/gear/loqi-tote.jpg
+        weight: 1 oz
+        link:
+          - url: https://amzn.to/4eQXG9E
+            label: Amazon
+        alternatives:
+          - name: Loqi Tote Museum Edition
+            image: /assets/images/gear/loqui-museum-tote.jpg
+            weight: 0.4 oz
+            label: With 4.5" Pouch
+            link:
+              - url: https://store.moma.org/products/loqi-recycled-polyester-artist-tote-bag-van-gogh?variant=44170471112934
+                label: MoMA
+  - title: Shoes
+    items:
+      - name: Altra Lone Peak 6 Trail Running Shoes
+        image: /assets/images/gear/altra-lone-peak-6-women.jpg
+        weight: 17.65 oz
+        alternatives:
+          - name: Altra Lone Peak 9 Trail Running Shoes
+            image: /assets/images/gear/altra-lone-peak-9.jpg
+            label: Newer
+            weight: 18.31 oz
+            link:
+              - url: https://amzn.to/4lAqMfU
+                label: Amazon
+          - name: Topo Athletic Pursuit 2
+            image: /assets/images/gear/topo-pursuit-2-womens.jpg
+            label: Also Recommend
+            weight: 17.95oz
+            link:
+              - url: https://amzn.to/4m8DLW5
+                label: Amazon
+      - name: Teva Original Universal Sandal
+        image: /assets/images/gear/teva-original.jpg
+        weight: 10.4 oz
+        link:
+          - url: https://amzn.to/468otvM
+            label: Amazon
+  - title: Clothing
+    items:
+      - name: Merino 185 Long-Sleeve Half-Zip Base Layer Top 
+        image: /assets/images/gear/rei-merino-half-zip-womens.jpg
+        weight: 6.35 oz
+        link:
+          - url: https://www.rei.com/product/192861/rei-co-op-merino-185-long-sleeve-half-zip-base-layer-top-womens
+            label: REI
+      - name: American Eagle Pocket Leggings
+        image: /assets/images/gear/american-eagle=pocket-leggings.jpg
+        weight: 2.2 oz
+        link:
+          - url: https://www.ae.com/us/en/s/leggings+pocket
+            label: Amnerican Eagle
+      - name: ExOfcio Give-N-Go Sport Mesh 2.0
+        image: /assets/images/gear/exofficio-underwear-wommens.jpg
+        weight: 0.9 oz
+        link:
+          - url: https://amzn.to/3GzKGsr
+            label: Amazon    
+      - name: Darn Tough Lightweight No Show Hiking Socks 
+        image: /assets/images/gear/darn-tough-no-show.jpg
+        weight: 1.4 oz
+        link:
+          - url: https://amzn.to/4lQKQui
+            label: Amazon
+      - name: Darn Tough Lightweight Mid Crew Hiking Socks 
+        image: /assets/images/gear/darn-tough-mid-crew.jpg
+        weight: 1.75 oz
+        link:
+          - url: https://amzn.to/3TMj4mP
+            label: Amazon
+      - name: Darn Tough Midweight Mid Crew Hiking Socks 
+        image: /assets/images/gear/darn-tough-mid-weight.jpg
+        weight: 2.65 oz
+        link:
+          - url: https://amzn.to/3GzKtp9
+            label: Amazon
+      - name: Chrome Industries Merino Neck Gaiter
+        image: /assets/images/gear/chrome-buff.jpg
+        weight: 
+        alternatives:
+          - name: BUFF unisex-adult Merino Wool Fleece
+            image: /assets/images/gear/buff-merino-warmer.jpg
+            weight: 
+            label: Similar
+            link:
+              - url: https://amzn.to/4nVOk0l
+                label: Amazon
+      - name: Chrome Industries Arm Sleeves
+        image: /assets/images/gear/chrome-sleeves.jpg
+        weight: 
+        alternatives:
+          - name: 2XU Compression Flex Arm Sleeve
+            image: /assets/images/gear/2xu-sleeve.jpg
+            weight: 
+            label: Similar
+            link:
+              - url: https://amzn.to/44HvP8p
+                label: Amazon
+      - name: Ultra Light Down Parka
+        image: /assets/images/gear/uniqlo-down-jacket-women.jpg
+        weight: 7 oz
+        link:
+          - url: https://www.uniqlo.com/us/en/products/E450311-000/00?srsltid=AfmBOooSHW16n6DIF3QCg_cT4PyL9F4_nIEeKpAaO2kieOMAFaXaRVK0&colorDisplayCode=09&sizeDisplayCode=003
+            label: Uniqlo
+  - title: Rain Gear
+    items:
+      - name: Redcamp Poncho
+        image: /assets/images/gear/redcamp-poncho.jpg
+        weight: 9.6 oz
+        link:
+          - url: https://amzn.to/44TONaP
+            label: Amazon
+  - title: Sleeping
+    items:
+      - name: Nemo Disco 30 Sleeping Bag
+        image: /assets/images/gear/nemo-disco-womens.jpg
+        weight: 41.2 oz
+        link:
+          - url: https://amzn.to/44vzyWB
+            label: Amazon
+        alternatives:
+          - name: NEMO Disco Endless Promise Down Sleeping Bag
+            image: /assets/images/gear/nemo-disco-endless.jpg
+            weight: 41.62 oz
+            label: Newer
+            link:
+              - url: https://amzn.to/4m7euLY
+                label: Amazon
+  - title: Toiletries
+    items:
+      - name: PackTowl Ultralite Microfiber Body Towel
+        image: /assets/images/gear/packtowl.jpg
+        weight: 3.1 oz
+        link:
+          - url: https://amzn.to/3U73BO6
+            label: Amazon
+      - name: Matador FlatPack Soap Bar Case
+        image: /assets/images/gear/matador-soap-case.jpg
+        weight: 0.39 oz
+        link:
+          - url: https://amzn.to/44OXmF8
+            label: Amazon
+      - name: Matador FlatPack Toiletry Bottles
+        image: /assets/images/gear/matador-bottle.jpg
+        weight: 0.41 oz
+        link:
+          - url: https://amzn.to/3H1MASG
+            label: Amazon
+      - name: Colgate Total Toothpaste travel size
+        image: /assets/images/gear/colgate-travel-toothpaste.jpg
+        weight: 44g
+        link:
+          - url: https://amzn.to/4eT3aRj
+            label: Amazon
+      - name: Dr. Bronner's Pure-Castile Magic Soap Bars
+        image: /assets/images/gear/dr-bronners-soap.jpg
+        weight: 73g
+        link:
+          - url: https://amzn.to/4lqIQJm
+            label: Amazon
+      - name: CRYSTAL Deodorant Stick 
+        image: /assets/images/gear/crystal-deodorant.jpg
+        weight: 1.87 oz
+        link:
+          - url: https://amzn.to/44YUq7w
+            label: Amazon
+  - title: First Aid Kit
+    items:
+      - name: Leukotape
+        image: /assets/images/gear/leukotape.jpg
+        weight: 
+        link:
+          - url: https://amzn.to/3H0AB7M
+            label: Amazon
+      - name: Sheep's Wool
+        image: /assets/images/gear/sheeps-wool.jpg
+        weight: 
+        link:
+          - url: https://amzn.to/3Ubhdb9
+            label: Amazon
+      - name: Vaseline Travel Size
+        image: /assets/images/gear/vaseline.jpg
+        weight: 63g
+        link:
+          - url: https://amzn.to/459yNl5
+            label: Amazon
+  - title: Miscellaneous
+    items:
+      - name: Kirkland (or Smart Water) Bottle 1L 
+        image: /assets/images/gear/smart-water.jpg
+        weight: 
+        link:
+          - url: https://amzn.to/46TsMv9
+            label: Amazon
+      - name: "Book: Let Go book by Fenelon"
+        image: /assets/images/gear/book-let-go.jpg
+        weight: 3.2 oz
+        link:
+          - url: https://amzn.to/44zv55m
+            label: Amazon
+      - name: Jason Wu 3-in-1 Lipstick, Blush, Shadow [Apple Pie]
+        image: /assets/images/gear/jason-wu-stick.jpg
+        weight: 3.9 oz
+        link:
+          - url: https://amzn.to/4lEL4VE
+            label: Amazon
+  - title: Electronics
+    items:
+      - name: Aukey 20W 10kmAh Mini Power Bank
+        image: /assets/images/gear/aukey-10k-power-bank.jpg
+        weight: 6.55 oz
+        link:
+          - url: https://www.aukey.com/products/aukey-pb-n83s-20w-qc3-0-fast-charging-power-bank
+            label: Aukey
+        alternatives:
+          - name: Nimble Champ 20W 10kmAh Power Bank
+            image: /assets/images/gear/champ-power-bank.jpg
+            weight: 6.2 oz
+            label: Dual USB-C
+            link:
+              - url: https://amzn.to/4kCQ9MX
+                label: Amazon
+          - name: Anker MagGo Ultra-Slim 15W 10kmAh Qi2 Power Bank
+            image: /assets/images/gear/anker-maggo-ultraslim-qi2.jpg
+            weight: 7.04 oz
+            label: Wireless
+            link:
+              - url: https://amzn.to/46lXQDQ
+                label: Amazon
+      - name: European Power Adapter
+        image: /assets/images/gear/european-adapter.jpg
+        weight: 0.35 oz
+        link:
+          - url: https://amzn.to/3TyH7pd
+            label: Amazon
+      - name: Anker Nano 30W USB-C GaN Charger
+        image: /assets/images/gear/anker-30w-charger.jpg
+        weight: 1.38 oz
+        link:
+          - url: https://amzn.to/3IqJNTp
+            label: Amazon
+        alternatives:
+          - name: MINIX NEO P1 Mini 33W GaN Charger
+            image: /assets/images/gear/minix-neo-p1.jpg
+            weight: 2.65 oz
+            label: Dual USB + European Adapter
+            link:
+              - url: https://amzn.to/4eZOEqV
+                label: Amazon
+      - name: AirPods Pro
+        image: /assets/images/gear/airpods-pro.jpg
+        weight: 2.2 oz
+        link:
+          - url: https://amzn.to/3IntdDX
+            label: Amazon
+  

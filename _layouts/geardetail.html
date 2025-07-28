@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<div class="album py-5">
+    
+    <div class="container">
+        {% assign data = site.data.gear[page.data] %}
+        <div class="row">
+            <p><a href="/gear">All Gear</a></p>
+            <h1 class="fs-1 fw-bold">{{ data.name }} <span class="text-body-secondary">({{ data.season }})</span></h1>
+            <p>{{ data.description }}<br/>
+            <small class="text-body-tertiary fs-4">Weight: {{ data.weight }}</small></p>
+            <div class="mt-4" style="max-width: 720px; margin: 0 auto;">
+                <div class="ratio ratio-16x9 embed-responsive embed-responsive-16by9 " >
+                    <iframe class="embed-responsive-item rounded shadow-lg" src="https://www.youtube.com/embed/{{ data.videoID }}?rel=0" allowfullscreen></iframe>
+            </div>
+            <p class="my-3 text-body-tertiary">We may receive a small commission through these links at no extra cost to you.</p>
+            </div>
+        </div>
+        {% for section in data.sections %}
+        <div class="row mt-5 mb-1 align-items-center">
+            <div class="col">
+                <h2 class="fs-3 text-center">{{ section.title }}</h2>
+                <hr />
+            </div>
+            
+        </div>
+        <div class="row row-cols-2 row-cols-sm-2 row-cols-lg-3 g-6">
+            {% for item in section.items %}
+            <div class="col gy-5"> 
+                <img src="{{ item.image }}" alt="" wifth="150" height="150" class="w-100 mb-3 " style="height: auto;">    
+                <div class="justify-content-between"> 
+                    <div> 
+                        <h6>{{ item.name }}</h6> 
+                        {% if item.weight %}
+                        <p><small class="text-body-secondary text-nowrap">{{ item.weight }}</small> </p>
+                        {% endif %}
+                        <p>
+                            {% for link in item.link %}
+                            <a class="btn btn-outline-primary" role="button" href="{{ link.url }}">{{ link.label }}</a>
+                            {% endfor %}
+                        </p> 
+                    </div> 
+                </div>
+                {% if item.alternatives %}
+                <div class=""> 
+                    <h6 class="mt-3 text-body-tertiary">Alternatives</h6>
+                {% for alt in item.alternatives %}
+                <div class=" gap-3"> 
+                    <hr />
+                    <div class="row">
+                        <div class="col-4 col-sm-3">
+                             <img src="{{ alt.image }}" alt="" width="128" height="128" class="w-100" style="height: auto;"> 
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h6 class="mb-0">{{ alt.name }}</h6> 
+                            <p class="d-flex justify-content-between text-body-secondary mt-1">
+                                <small>{{ alt.label }}</small>
+                                {% if alt.weight %} <small class="text-nowrap ">{{ alt.weight }}</small> {% endif %}
+                            </p>
+                            <p>
+                                {% for link in alt.link %}
+                                <a class="btn btn-outline-secondary" role="button" href="{{ link.url }}">{{ link.label }}</a>
+                                {% endfor %}
+                            </p>
+                        </div>
+                    </div>
+                </div> 
+                {% endfor %} 
+                </div>
+                {% endif %}
+            </div> 
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+</div>

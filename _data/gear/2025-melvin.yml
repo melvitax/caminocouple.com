@@ -1,0 +1,479 @@
+slug: /gear/2025-packing-list-his/
+name: Melvin's Camino Packing List
+description: Packing list for Camino Primitivo in the spring time.
+thumbnail: https://img.youtube.com/vi/t04QxPiSCQw/mqdefault.jpg
+videoID: t04QxPiSCQw
+season: "Spring 2025"
+weight: "-------"
+sections:
+  - title: Packs
+    items:
+      - name: Osprey Talon 33L Backpack (30L/Small)
+        image: /assets/images/gear/osprey-talon-33.jpg
+        weight: 1049g
+        link:
+          - url: https://amzn.to/4nNXlsj
+            label: Amazon
+        alternatives:
+          - name: Osprey Talon 26L
+            image: /assets/images/gear/osprey-talon-26.jpg
+            weight: 1068g
+            label: Newer
+            link:
+              - url: https://amzn.to/3GDfoAX
+                label: Amazon
+          - name: Osprey Talon Velovity 30L
+            image: /assets/images/gear/osprey-talon-velocity-30-men.jpg
+            weight: 980g
+            label: Lighter
+            link:
+              - url: https://amzn.to/3IId4cB
+                label: Amazon
+      - name: Matador On Grid Packable Hip Pack 2L
+        image: /assets/images/gear/matador-on-grid-hippack.jpg
+        weight: 98g
+        link:
+          - url: https://www.backcountry.com/matador-on-grid-packable-hip-pack
+            label: Backcountry
+        alternatives:
+          - name: Matador ReFraction Packable Sling
+            image: /assets/images/gear/matador-refraction-packable-sling.jpg
+            weight: 113g
+            label: Newer
+            link:
+              - url: https://www.matadorequipment.com/collections/packable/products/refraction-packable-sling
+                label: Matador
+      - name: Sea to Summit 2L Dry Sack
+        image: /assets/images/gear/sea-to-summit-2l-dry-sack.jpg
+        weight: 21g
+        link:
+          - url: https://amzn.to/4ePnQtn
+            label: Amazon
+  - title: Shoes
+    items:
+      - name: New Balance Hierro 7
+        image: /assets/images/gear/new-balance-hierro-7-golden.jpg
+        weight: 668g
+        link:
+          - url: https://amzn.to/3UqQPu4
+            label: Amazon
+        alternatives:
+          - name: New Balance Hierro 9
+            image: /assets/images/gear/new-balance-hierro-9.jpg
+            label: Newer
+            weight: 618g
+            link:
+              - url: https://amzn.to/4kXOK3T
+                label: Amazon
+      - name: Teva Original Universal Sandal
+        image: /assets/images/gear/teva-original.jpg
+        weight: 382g
+        link:
+          - url: https://amzn.to/44SR4Df
+            label: Amazon
+  - title: Clothing
+    items:
+      - name: Outdoor Research Men's Astro Shorts
+        image: /assets/images/gear/or-astro-shorts-men.jpg
+        weight: 160g
+        link:
+          - url: https://amzn.to/4f7svqE
+            label: Amazon
+      - name: REI Swiftland Running T-Shirt
+        image: /assets/images/gear/rei-swiftland-running-shirt.jpg
+        weight: 105g
+        link:
+          - url: https://www.rei.com/product/202656/rei-co-op-swiftland-running-t-shirt-mens
+            label: REI
+      - name: Patagonia Capilene Cool Lightweight Shirt
+        image: /assets/images/gear/patagonia-capilene-cool--lihtweight-shirt-men.jpg
+        weight: 131g
+        link:
+          - url: https://www.patagonia.com/product/mens-capilene-cool-lightweight-shirt/45760.html?dwvar_45760_color=BLK
+            label: Patagonia
+      - name: Outdoor Research Argon T-shirt
+        image: /assets/images/gear/or-argon-shirt-mens.jpg
+        weight: 149g
+        link:
+          - url: https://amzn.to/4mkmdqg
+            label: Amazon
+      - name: Outdoor Research Astroman short sleeve shirt
+        image: /assets/images/gear/or-astroman-short-sleeve-shirt-mens.jpg
+        weight: 140g
+        link:
+          - url: https://amzn.to/4l4hjfH
+            label: Amazon
+      - name: Patagonia Terrabone Joggers
+        image: /assets/images/gear/patagonia-terrabone-joggers-mens.jpg
+        weight: 167g
+        link:
+          - url: https://www.patagonia.com/product/mens-terrebonne-trail-joggers/24541.html
+            label: Patagonia
+      - name: Decathon DOMYOS Joggers
+        image: /assets/images/gear/decathlon-joggers-mens.jpg
+        weight: 214g
+        link:
+          - url: https://www.decathlon.sg/p/men-s-regular-fit-breathable-fitness-bottoms-essential-black-domyos-8569366.html?srsltid=AfmBOorHg5R55fOPQjsapwrXVAn_xLSHX4ZDB5wlPJHAWKFZPz-1vTEx
+            label: Decathlon
+      - name: Uniqlo Airism Boxer Briefs
+        image: /assets/images/gear/uniqlo-briefs.jpg
+        weight: 55g
+        link:
+          - url: https://www.uniqlo.com/us/en/products/E454326-000/00?colorDisplayCode=09&sizeDisplayCode=005&pldDisplayCode=000
+            label: Uniqlo 
+      - name: Darn Tough Hiking No Show Socks
+        image: /assets/images/gear/darn-tough-no-show-men.jpg
+        weight: 46g
+        link:
+          - url: https://amzn.to/3GoDdMM
+            label: Amazon
+      - name: Darn Tough Hiking Half Crew Socks 
+        image: /assets/images/gear/darn-tough-mid-crew-men.jpg
+        weight: 58g
+        link:
+          - url: https://amzn.to/4o36QEa
+            label: Amazon
+  - title: Layers
+    items:
+      - name: Uniqlo Ultra Light Down Jacket
+        image: /assets/images/gear/uniqlo-ultra-light-down-men.jpg
+        weight: 269g
+        link:
+          - url: https://www.uniqlo.com/us/en/products/E463247-000/00
+            label: Uniqlo
+        alternatives:
+          - name: Patagonia Men's Nano Puff Jacket
+            image: /assets/images/gear/patagonia-nano-puff-mens.jpg
+            weight: 950g
+            label: Better
+            link:
+              - url: https://amzn.to/3IJaq6p
+                label: Amazon
+      - name: Outdoor Research Men's Vigor Grid Fleece Half Zip
+        image: /assets/images/gear/or-vigor-fleece-half-zip-mens.jpg
+        weight: 327g
+        link:
+          - url: https://amzn.to/3GY3jq6
+            label: Amazon
+      - name: Patagonia Houdini Windbraker Jacket
+        image: /assets/images/gear/patagonia-houdini-mens.jpg
+        weight: 105g
+        link:
+          - url: https://amzn.to/3GY3jq6
+            label: Amazon
+        alternatives:
+          - name: Outdoor Research Men's Shadow Windbreaker
+            image: /assets/images/gear/outdoor-research-windbraker-mens.jpg
+            weight: 164g
+            labe: Also good
+            link:
+              - url: https://amzn.to/3GDtVwr
+                label: Amazon
+      - name: BUFF Adult CoolNet UV
+        image: /assets/images/gear/buff-coolnet-uv.jpg
+        weight: 35g
+        link:
+          - url: https://www.patagonia.com/product/mens-houdini-windbreaker-jacket/24142.html?dwvar_24142_color=BLK
+            label: Patagonia
+  - title: Rain
+    items:
+      - name: Patagonia Torrent Shell 3L Rain Jacket
+        image: /assets/images/gear/patagonia-torrent-shell-men.jpg
+        weight: 408g
+        link:
+          - url: https://www.patagonia.com/product/mens-torrentshell-3l-rain-jacket/195699586864.html
+            label: Patagonia
+        alternatives:
+          - name: Outdoor Research Foray 3L Rain Jacket
+            image: /assets/images/gear/or-foray-rain-jacket.jpg
+            weight: 488g
+            label: Also good
+            link:
+              - url: https://amzn.to/4m7euLY
+                label: Amazon
+      - name: Osprey Hi-Visibility Raincover
+        image: /assets/images/gear/osprey-rain-cover.jpg
+        weight: 108g
+        link:
+          - url: https://amzn.to/4fbNZmp
+            label: Amazon
+      - name: Osprey Ultralight Dry Sack Pack Liner 35L
+        image: /assets/images/gear/osprey-pack-liner.jpg
+        weight: 80g
+        link:
+          - url: https://amzn.to/4kVOKkG
+            label: Amazon
+  - title: Sleep
+    items:
+      - name: Rumpl NANOLOFT Puffy Blanket Travel
+        image: /assets/images/gear/rumpl-nano-blanket.jpg
+        weight: 283 oz
+        link:
+          - url: https://amzn.to/4m1F0qe
+            label: Amazon
+      - name: Sea to Summit Silk Liner
+        image: /assets/images/gear/sea-to-summit-silk-liner.jpg
+        weight: 7 oz
+        link:
+          - url: https://amzn.to/462B9Es
+            label: Amazon
+      - name: Nidra Contoured Sleep Mask
+        image: /assets/images/gear/ndra-contoured-sleep-mask.jpg
+        weight: 17 oz
+        link:
+          - url: https://amzn.to/41aFRwy
+            label: Amazon
+      - name: 3M Ear Plugs
+        image: /assets/images/gear/3m-ear-plugs.jpg
+        weight: 
+        link:
+          - url: https://amzn.to/46sbFk1
+            label: Amazon
+  - title: Toiletries
+    items:
+      - name: Goodie Quick Dry Towel Travel Microfiber Towel
+        image: /assets/images/gear/goodie-towel.jpg
+        weight: 71g
+        link:
+          - url: https://amzn.to/4lxL7Tg
+            label: Amazon
+      - name: Matador FlatPak Zipper Toiletry Case
+        image: /assets/images/gear/matador-toiletry-case.jpg
+        weight: 28g
+        label: Ultralight
+        link:
+          - url: https://www.matadorequipment.com/collections/organization/products/flatpak-zipper-toiletry-case
+            label: Matador
+        alternatives:
+          - name: Osprey Daylite Toiletry Kit
+            image: /assets/images/gear/osprey-daylite-toiletry-kit.jpg
+            weight: 110g
+            label: Alternative
+            link:
+              - url: https://amzn.to/3H3bMZ1
+                label: Amazon
+      - name: Matador FlatPack Soap Bar Case
+        image: /assets/images/gear/matador-soap-case.jpg
+        weight: 0.39 oz
+        link:
+          - url: https://amzn.to/44OXmF8
+            label: Amazon
+      - name: Matador FlatPack Toiletry Bottles
+        image: /assets/images/gear/matador-bottle.jpg
+        weight: 0.41 oz
+        link:
+          - url: https://amzn.to/3H1MASG
+            label: Amazon
+      - name: Colgate Total Toothpaste travel size
+        image: /assets/images/gear/colgate-travel-toothpaste.jpg
+        weight: 44g
+        link:
+          - url: https://amzn.to/4eT3aRj
+            label: Amazon
+      - name: Burt's Bees Coconut & Pear Lip Balm
+        image: /assets/images/gear/burt-bees-lip-balm.jpg
+        weight: 9g
+        link:
+          - url: https://amzn.to/4eOCtNo
+            label: Amazon
+      - name: Dr. Bronner's Pure-Castile Magic Soap Bars
+        image: /assets/images/gear/dr-bronners-soap.jpg
+        weight: 73g
+        link:
+          - url: https://amzn.to/4lqIQJm
+            label: Amazon
+      - name: Harrys Shaving Razor
+        image: /assets/images/gear/harris-shaving-kit.jpg
+        weight: 49g
+        link:
+          - url: https://amzn.to/4mea9qa
+            label: Amazon
+      - name: CRYSTAL Deodorant Stick 
+        image: /assets/images/gear/crystal-deodorant.jpg
+        weight: 1.87 oz
+        link:
+          - url: https://amzn.to/44YUq7w
+            label: Amazon
+  - title: Laundry
+    items:
+      - name: Sea to Summit Lite Line Camping and Travel Clothesline
+        image: /assets/images/gear/sea-to-summit-clothsline.jpg
+        weight: 29g
+        link:
+          - url: https://amzn.to/4oaMUPC
+            label: Amazon
+      - name: Honey-Can-Do Waterproof Clothespins 6 Pack
+        image: /assets/images/gear/honey-can-do-clothespins.jpg
+        weight: 25g
+        link:
+          - url: https://amzn.to/3UyQJR7
+            label: Amazon
+      - name: Zote Laundry Soap Bar
+        image: /assets/images/gear/zote-laundry-soap.jpg
+        weight: 63g
+        link:
+          - url: https://amzn.to/3Ux3oUC
+            label: Amazon
+  - title: First Aid Kit
+    items:
+      - name: Leukotape
+        image: /assets/images/gear/leukotape.jpg
+        weight: 
+        link:
+          - url: https://amzn.to/3H0AB7M
+            label: Amazon
+      - name: Sheep's Wool
+        image: /assets/images/gear/sheeps-wool.jpg
+        weight: 
+        link:
+          - url: https://amzn.to/3Ubhdb9
+            label: Amazon
+      - name: Vaseline Travel Size
+        image: /assets/images/gear/vaseline.jpg
+        weight: 63g
+        link:
+          - url: https://amzn.to/459yNl5
+            label: Amazon
+  - title: Miscellaneous
+    items:
+      - name: Kirkland (or Smart Water) Bottle 1L 
+        image: /assets/images/gear/smart-water.jpg
+        weight: 
+        link:
+          - url: https://amzn.to/46TsMv9
+            label: Amazon
+      - name: Goodr sun glasses
+        image: /assets/images/gear/smart-water.jpg
+        weight: 
+        link:
+          - url: https://amzn.to/46TsMv9
+            label: Amazon
+  - title: Mirrorles Camera
+    items:
+      - name: Sony a6700 Mirrorless Camera
+        image: /assets/images/gear/sony-a6700.jpg
+        weight: 411g
+        link:
+          - url: https://amzn.to/4kXPIgx
+            label: Amazon
+      - name: Matador Camera Base Layer
+        image: /assets/images/gear/matador-camera-base-layer.jpg
+        weight: 152g
+        link:
+          - url: https://amzn.to/45o6FvL
+            label: Amazon
+          - url: https://www.matadorequipment.com/products/camera-base-layer-2?srsltid=AfmBOopwnNSKeUnVHsYRtOPY9YPs6YrDmqemiH9capR6_-WY38ZKpBbH
+            label: Amazon
+      - name: Sony ECM-G1 Mic
+        image: /assets/images/gear/sony-ecm-g1-mic.jpg
+        weight: 40g
+        link:
+          - url: https://amzn.to/4mhsCCv
+            label: Amazon
+      - name: Sigma 18-50mm Lens
+        image: /assets/images/gear/sigma-18-50.jpg
+        weight: 290g
+        link:
+          - url: https://amzn.to/3GoEXpi
+            label: Amazon
+      - name: K&F VND 32 55mm magnetic filter
+        image: /assets/images/gear/kandf-nd-filter-55mm.jpg
+        weight: 29g
+        link:
+          - url: https://amzn.to/44ZGBa9
+            label: Amazon
+      - name: K&F Black Diffusion ⅛ 55mm magnetic filter
+        image: /assets/images/gear/kandf-diffusion-filter-55mm.jpg
+        weight: 12g
+        link:
+          - url: https://amzn.to/46HDS6s
+            label: Amazon
+  - title: Action Camera
+    items:
+      - name: DJI Action 5 Pro Camera
+        image: /assets/images/gear/dji-action-5.jpg
+        weight: 146g
+        label: Newer
+        link:
+          - url: https://amzn.to/45ilsrU
+            label: Amazon
+      - name: DJI Mic 2 Transmitter 
+        image: /assets/images/gear/dji-mic-2.jpg
+        weight: 146g
+        link:
+          - url: https://amzn.to/44S1Tqn
+            label: Amazon
+      - name: DJI Osmo Action 3 1.5m Extension Rod
+        image: /assets/images/gear/dji-3.1-rod.jpg
+        weight: 36g
+        link:
+          - url: https://amzn.to/4lOzDdG
+            label: Amazon
+      - name: Osmo Action Hanging Neck Mount
+        image: /assets/images/gear/dji-neck-mount.jpg
+        weight: 169g
+        link:
+          - url: https://amzn.to/4lO0erg
+            label: Amazon
+      - name: Ulanzi Mini Tripod Stand 
+        image: /assets/images/gear/ulanzi-tripod.jpg
+        weight: 35g
+        link:
+          - url: https://amzn.to/3GIt0L9
+            label: Amazon
+      - name: TELESIN Lens Filter Set for DJI Action 5
+        image: /assets/images/gear/telesin-dji-action-5-nd-filter.jpg
+        weight: 7g
+        link:
+          - url: https://amzn.to/4kXgkOr
+            label: Amazon
+  - title: Electronics
+    items:
+      - name: Aukey 20W 10kmAh Mini Power Bank
+        image: /assets/images/gear/aukey-10k-power-bank.jpg
+        weight: 6.55 oz
+        link:
+          - url: https://www.aukey.com/products/aukey-pb-n83s-20w-qc3-0-fast-charging-power-bank
+            label: Aukey
+        alternatives:
+          - name: Nimble Champ 20W 10kmAh Power Bank
+            image: /assets/images/gear/champ-power-bank.jpg
+            weight: 6.2 oz
+            label: Dual USB-C
+            link:
+              - url: https://amzn.to/4kCQ9MX
+                label: Amazon
+          - name: Anker MagGo Ultra-Slim 15W 10kmAh Qi2 Power Bank
+            image: /assets/images/gear/anker-maggo-ultraslim-qi2.jpg
+            weight: 7.04 oz
+            label: Wireless
+            link:
+              - url: https://amzn.to/46lXQDQ
+                label: Amazon
+      - name: European Power Adapter
+        image: /assets/images/gear/european-adapter.jpg
+        weight: 0.35 oz
+        link:
+          - url: https://amzn.to/3TyH7pd
+            label: Amazon
+      - name: Anker Nano 30W USB-C GaN Charger
+        image: /assets/images/gear/anker-30w-charger.jpg
+        weight: 1.38 oz
+        link:
+          - url: https://amzn.to/3IqJNTp
+            label: Amazon
+        alternatives:
+          - name: MINIX NEO P1 Mini 33W GaN Charger
+            image: /assets/images/gear/minix-neo-p1.jpg
+            weight: 2.65 oz
+            label: Dual USB + European Adapter
+            link:
+              - url: https://amzn.to/4eZOEqV
+                label: Amazon
+      - name: AirPods Pro
+        image: /assets/images/gear/airpods-pro.jpg
+        weight: 2.2 oz
+        link:
+          - url: https://amzn.to/3IntdDX
+            label: Amazon
+  

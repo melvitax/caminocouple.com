@@ -1,73 +1,30 @@
-# Site
-name: "Camino Couple"
-title: "Camino Couple - Melvin & Lilia's Travel Blog"
-description:  "Come walk with us as we explore the world of Camino de Santiago"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
-baseurl: '/'
-google_analytics: "G-8SW8R2SXVQ"
-disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
-include: ["_pages"]
-permalink: /:title/
 
-# Authors
-authors:
-  sal:
-    name: Melvin Rivera
-    display_name: Melvin
-    gravatar: melvitax
-    email: melvitax@me.com
-    web: https://melvitax.com
-    twitter: https://twitter.com/melvitax
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: Lilia Rivera
-    display_name: Lilia    
-    avatar: 'assets/images/avatar.png'
-    gravatar: liliflower
-    email: liliflower@me.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+title: Camino Couple
+email: melvitax@me.com
+description: >- 
+  Melvin & Lilia's Travel 
+baseurl: "" 
+url: "" 
+twitter_username: jekyllrb
+github_username:  jekyll
 
-# Plugins
+
+#theme: minima
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-archives
-    
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/category/:name/'
-    
-# Pagination 
-paginate: 6
-paginate_path: /page:num/
-    
-# Other
-markdown: kramdown
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
 
-# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: "disabled"
-adsense-data-ad-client: "ca-pub-3412143450191416"
-adsense-data-ad-slot: "1363087678"
-
-# Lazy Images ("enabled" or "disabled")
-lazyimages: "disabled"
-
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
-
+exclude:
+  - changelog.md
+  - LICENSE.txt, 
+  - README.md
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

@@ -1,0 +1,25 @@
+<header class="mb-auto" {% if page.layout != 'home' %}style="background: url('/assets/images/cover-square.jpg') center top; background-size: cover; "{% endif %}>
+    <div {% if page.layout != 'home' %}style="background: #000000;
+background: linear-gradient(180deg,rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%);" {% endif %}>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/">Camino Couple</a>
+                    <ul class="navbar-nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link {% if page.layout == 'home' %}active{% endif %}" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link {% if page.layout == 'gear' or page.layout == 'geardetail' %}active{% endif %}"  href="/gear">Gear List</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link {% if page.layout == 'about' %}active{% endif %}" href="/about">About</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </nav>
+            <br class="clearfix">
+        </div>
+    </div>
+</header>

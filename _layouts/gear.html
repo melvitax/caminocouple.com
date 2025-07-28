@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="album py-5">
+    
+    <div class="container">
+        <h1>Gear List</h1>
+        <p>Our packing list for each of our caminos</p>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            {% assign files = "2025-lilia,2025-melvin,2023-lilia,2023-melvin,2022-lilia,2022-melvin" | split: ','  %}
+            {% for file in files %}
+            {% assign data = site.data.gear[file] %}
+            <div class="col">
+                <div class="card shadow-sm">
+                    <a href="{{ data.slug }}">
+                        <div class="ratio ratio-16x9">
+                            <img src="{{ data.thumbnail }}" class="img-fluid" style="object-fit: cover;" alt="Card image" />
+                        </div>
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">{{ data.name }}</h5>
+                        <p class="card-text">{{ data.description }}</p>
+                        <hr />
+                        <div class="d-flex justify-content-between align-items-center">
+                            <small class="text-body-secondary">{{ data.season }}</small>
+                            <small class="text-body-secondary">{{ data.weight }}</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
