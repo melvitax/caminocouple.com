@@ -3,9 +3,9 @@ layout: default
 ---
 
 <div class="album py-5">
-    
     <div class="container">
-        {% assign data = site.data.gear[page.data] %}
+        {% assign slug = page.url | split: '/' | last | split: "." | first  %}
+        {% assign data = site.data.gear[slug] %}
         <div class="row">
             <p><a href="/gear">All Gear</a></p>
             <h1 class="fs-1 fw-bold">{{ data.name }} <span class="text-body-secondary">({{ data.season }})</span></h1>
@@ -24,7 +24,6 @@ layout: default
                 <h2 class="fs-3 text-center">{{ section.title }}</h2>
                 <hr />
             </div>
-            
         </div>
         <div class="row row-cols-2 row-cols-sm-2 row-cols-lg-3 g-6">
             {% for item in section.items %}
@@ -50,21 +49,21 @@ layout: default
                 <div class=" gap-3"> 
                     <hr />
                     <div class="row">
-                        <div class="col-4 col-sm-3">
+                        <div class="col-6 ">
                              <img src="{{ alt.image }}" alt="" width="128" height="128" class="w-100" style="height: auto;"> 
                         </div>
-                        <div class="col-8 col-sm-9">
-                            <h6 class="mb-0">{{ alt.name }}</h6> 
-                            <p class="d-flex justify-content-between text-body-secondary mt-1">
-                                <small>{{ alt.label }}</small>
-                                {% if alt.weight %} <small class="text-nowrap ">{{ alt.weight }}</small> {% endif %}
-                            </p>
-                            <p>
-                                {% for link in alt.link %}
-                                <a class="btn btn-outline-secondary" role="button" href="{{ link.url }}">{{ link.label }}</a>
-                                {% endfor %}
-                            </p>
+                        <div class="col-6 ps-0 text-body-secondary align-self-center">
+                            <small>
+                            {% if alt.weight %}{{ alt.weight }}<br /> {% endif %}
+                            {{ alt.label }}
+                            </small>
                         </div>
+                        <h6 class="">{{ alt.name }}</h6>     
+                        <p>
+                            {% for link in alt.link %}
+                            <a class="btn btn-outline-secondary" role="button" href="{{ link.url }}">{{ link.label }}</a>
+                            {% endfor %}
+                        </p>
                     </div>
                 </div> 
                 {% endfor %} 

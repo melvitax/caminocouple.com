@@ -8,26 +8,32 @@
   {% endif %}
   <meta name="description" content="{{site.description}}">
   <meta name="keywords" content="{{site.keywords}}">
-  <meta name="author" content="{{site.author.name}}">
+  <meta name="author" content="{{site.author}}">
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="320">
-  <link rel="apple-touch-icon" href="/assets/images/icon.jpg">
-  <link rel="icon" sizes="192x192" href="/assets/images/icon.jpg">
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:site" content="@{{site.twitter}}">
-  <meta property="twitter:creator" content="@{{site.author.twitter}}">
+  <meta property="twitter:site" content="@{{site.social_handle}}">
+  <meta property="twitter:creator" content="@{{site.social_handle}}">
   <!-- Facebook -->
   <meta property="og:site_name" content="{{site.title}}">
   <meta property="og:type" content="article">
   <!-- Shared -->
-  <meta property="og:url" content="{{site.url}}">
-  <meta property="og:title" content="{{ site.title }}">
-  <meta property="og:description" content="{{site.socialinfo}}">
-  <meta property="og:image" content="{{site.socialimage}}">
+  <meta property="og:url" content="{{ site.url }}">
+  {% if page.layout == "home" %}
+  <meta property="og:title" content="{{ page.title }}">
+  {% else %}
+  <meta property="og:title" content="{{ page.title }} | {{ site.title }}">
+  {% endif %}
+  <meta property="og:description" content="{{ site.social_description }}">
+  <meta property="og:image" content="{{ site.url }}{% if page.social_image %}{{ page.social_image }}{% else %}{{ site.social_image }}{% endif %}">
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <!-- CSS -->
   <link rel="stylesheet" href="/assets/css/style.css">
+  <!-- Icons -->
+  <link rel="icon" href="/favicon.ico" sizes="16x16 32x32"> <!-- Legacy -->
+  <link rel="apple-touch-icon" href="/icon-180.png"><!-- Apple -->
+  <link rel="manifest" href="/manifest.webmanifest"><!-- Android -->
 </head>

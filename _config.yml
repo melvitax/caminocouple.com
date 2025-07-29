@@ -2,17 +2,36 @@
 title: Camino Couple
 email: melvitax@me.com
 description: >- 
-  Melvin & Lilia's Travel 
+  Melvin & Lilia's journey on the Camino de Santiago and beyond.
+  Sharing our experiences, tips, and gear for fellow pilgrims.
+keywords: "camino, camino de santiago, camino couple, camino gear, camino packing list, camino tips, camino experiences"
+author: Melvin & Lilia Rivera
 baseurl: "" 
-url: "" 
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://caminocouple.com" 
+timezone: 'America/New_York'
 
+social_handle: caminocouple
+social_image: /assets/images/caminocouple.jpg
+social_description: " Melvin & Lilia's journey on the Camino de Santiago and beyond"
 
-#theme: minima
-plugins:
-  - jekyll-feed
+permalink: /:collection/:name/
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"  
+  -
+    scope:
+      path: "gear"
+      type: "pages"
+    values:
+      layout: "geardetail"
+      slug: /:title
+      permalink: /:path/:basename/
 
+# plugins:
+#   - jekyll-feed
 
 exclude:
   - changelog.md

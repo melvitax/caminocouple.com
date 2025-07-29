@@ -2,18 +2,19 @@
 layout: default
 ---
 
-<div class="album py-5">
-    
+<div>
     <div class="container">
         <h1>Gear List</h1>
+        <hr>
         <p>Our packing list for each of our caminos</p>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            {% assign files = "2025-lilia,2025-melvin,2023-lilia,2023-melvin,2022-lilia,2022-melvin" | split: ','  %}
-            {% for file in files %}
-            {% assign data = site.data.gear[file] %}
-            <div class="col">
+            {% assign gearData = site.data.gear | sort %}
+            {% for hash in gearData reversed %}
+                {% assign filename = hash[0] %}
+                {% assign data = hash[1] %}
+                <div class="col">
                 <div class="card shadow-sm">
-                    <a href="{{ data.slug }}">
+                    <a href="/gear/{{ filename }}">
                         <div class="ratio ratio-16x9">
                             <img src="{{ data.thumbnail }}" class="img-fluid" style="object-fit: cover;" alt="Card image" />
                         </div>
