@@ -4,13 +4,25 @@
       <a href="https://instagram.com/caminocouple" title="Follow on Instagram" class="{% if page.layout == 'home' %} link-light {% else %} link-secondary {% endif %}"><i class="bi bi-instagram"></i></a>&nbsp;&nbsp;
       <a href="https://www.youtube.com/@caminocouple" title="Follow on Instagram" class="{% if page.layout == 'home' %} link-light {% else %} link-secondary {% endif %}"><i class="bi bi-youtube"></i></a>&nbsp;&nbsp;
       <a href="https://www.tiktok.com/@caminocouple" title="Follow on TikTok" class="{% if page.layout == 'home' %} link-light {% else %} link-secondary {% endif %}"><i class="bi bi-tiktok"></i></a>&nbsp;&nbsp;
-      <a href="https://www.facebook.com/caminocouple" title="Follow on Facebook" class="{% if page.layout == 'home' %} link-light {% else %} link-secondary {% endif %}"><i class="bi bi-facebook"></i></a>
+      <a href="https://www.facebook.com/caminocouple" title="Follow on Facebook" class="{% if page.layout == 'home' %} link-light {% else %} link-secondary {% endif %}"><i class="bi bi-facebook"></i></a><br />
+      <stripe-buy-button
+  buy-button-id="buy_btn_1Rqd13EZ8eYOjvaKzBaWNuQw"
+  publishable-key="pk_live_51QMbUXEZ8eYOjvaKLqFkLIOkpoFNGDieaow30NliYg1i5NZfyEa8CuOvJGChxY5cdCDDH7dkgVXVxAiAe0zX0PLz00ngRizRrJ"
+>
+</stripe-buy-button>
     </p>
     <hr>
     <p>
       Last Updated: {{ 'now' | date: '%B %d, %Y' }} <br />
       © {{ 'now' | date: '%Y' }} {{ site.title }}. All rights reserved.
       Camino Couple is Melvin and Lilia Rivera.
+    </p>
+    <p>
+        <script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
+
+
     </p>
   </div>
 </footer>
