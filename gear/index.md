@@ -1,6 +1,6 @@
 ---
 layout: gear
-title: Gear List
+title: Gear Lists
 permalink: /gear/
 ---
 
